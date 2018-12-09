@@ -51,7 +51,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnDestroy() {
-    this.subscribe.unsubscribe();
+    // this.subscribe.unsubscribe();
     this.custObservableSubscription.unsubscribe();
   }
 
